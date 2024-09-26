@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+span{
+    display: block;
+}
+
+h1{
+    padding-bottom: 20px;
+}
+h2{
+    padding-top: 20px;
+}
+
+.canvas {
+    margin: 100px auto 100px;
+    width: 32%;
+    text-align: center;
+}
+
+.button {
+    width: 120px;
+    height: 120px;
+    display: table-cell;
+    margin: 0 1px;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+
+.box{
+    border: 2px solid #333;
+}
+
+#green{
+    background: rgb(19, 151, 80);
+}
+#red{
+    background: rgb(224, 55, 55);
+}
+#yellow{
+    background: rgb(232, 193, 21);
+}
+#black{
+    background: rgba(37, 52, 44, 0.586);
+}
+
+
+

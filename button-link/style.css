@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: calibri , sans-serif;
+}
+
+body {
+    background-color: #CCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+ul li{
+    display: inline-block;
+    margin: 0px 10px;
+    
+
+}
+
+ul li a{
+    color: #fff;
+    background-color: #1a73e8;
+    font-size: 20px;
+    box-shadow: 2px 2px 0px 5px #0c5dc7;
+    text-decoration: none;
+    padding: 20px;
+}
+
+ul li a:hover {
+    color: black;
+    background-color: #fff;
+}
